@@ -13,6 +13,7 @@
 @interface ViewController ()
 {
     AVAudioRecorder * recorder;
+    NSTimer * levelTimer01;
     NSTimer * levelTimer;
     XSMSectorProgressView * view;
 }
